@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Model Silhouette Tool</title>
+    <link rel="stylesheet" href="draw-model-styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>3D Model Silhouette Tool</h1>
+    </header>
+    <main>
+        <section id="modelView">
+            <h2>3D Model View</h2>
+            <div id="canvasContainer"></div>
+        </section>
+        <section id="controls">
+            <h2>Controls</h2>
+            <div id="controlsContainer"></div>
+        </section>
+    </main>
+    <!-- Include the main JavaScript file -->
+    <script type="module" src="draw-model.js"></script>
+</body>
+</html>
